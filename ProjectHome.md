@@ -1,0 +1,23 @@
+As its name suggests, <em>picocom</em> is a minimal dumb-terminal emulation
+program. It is, in principle, very much like <a href='http://alioth.debian.org/projects/minicom/'>minicom</a>, only
+it's <em>pico</em> instead of <em>mini</em>!
+
+Picocom was designed to serve as a simple, manual, modem configuration, testing,
+and debugging tool. It has also served (quite well) as a low-tech "terminal-window"
+to allow operator intervention in PPP connection scripts (something like
+the ms-windows "open terminal window before / after dialing"
+feature). It could also prove useful in many other similar tasks.
+
+Picocom is ideal for embedded systems since its memory footprint is minimal
+(less than 20K, when stripped).
+
+Apart from being a handy little tool,
+<em>picocom</em> source distribution includes a simple, easy to use,
+and thoroughly documented terminal-management library, which could
+serve other projects as well. This library hides the termios(3) calls,
+and provides a less complex and safer (though certainly less
+feature-rich) interface.
+
+Picocom runs on Linux, and with minor
+modifications it could run on any Unix system with the termios(3)
+library.
